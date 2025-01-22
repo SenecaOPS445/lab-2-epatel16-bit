@@ -2,10 +2,10 @@
 
 import sys
 
-# Assign command-line arguments to variables
-name = sys.argv[1]  # First argument is the name
-age = int(sys.argv[2])  # Second argument is the age, converted to integer
 
-# Print the exact output as required
+name = sys.argv[1]  
+age = int(sys.argv[2])  
+
+
 print("Hi " + name + ", you are " + str(age) + " years old.")
 

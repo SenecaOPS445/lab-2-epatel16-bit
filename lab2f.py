@@ -6,19 +6,15 @@
 
 import sys
 
-# Check if a command-line argument is provided
 if len(sys.argv) != 2:
     print(f"Usage: {sys.argv[0]} <start timer value>")
-    sys.exit(1)  # Exit with an error if not exactly one argument is provided
+    sys.exit(1)  
 
-# Assign the first command-line argument to timer, converting it to an integer
 timer = int(sys.argv[1])
 
-# While loop to count down from the timer
 while timer > 0:
-    print(timer)  # Print the current value of timer
-    timer -= 1  # Decrease the timer by 1 on each iteration
+    print(timer)  
+    timer -= 1  
 
-# Print "blast off!" once the timer reaches 0
 print("blast off!")
 
