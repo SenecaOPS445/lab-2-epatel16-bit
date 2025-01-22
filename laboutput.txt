@@ -1,0 +1,29 @@
+test_0 (__main__.lab2a.test_0)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for file creation: ./lab2a.py ... ok
+test_1 (__main__.lab2a.test_1)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for errors running: ./lab2a.py ... FAIL
+
+======================================================================
+FAIL: test_1 (__main__.lab2a.test_1)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for errors running: ./lab2a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/epatel16/ops445/lab2/./CheckLab2.py", line 55, in test_1
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 2 != 0 : your program exited with an error (HINT: try running your program to see the error)
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.010s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab2.py
+=================================================================
+    User login name: epatel16
+    Git Email: epatel16@myseneca.ca
+    Linux system name: epatel16-VirtualBox
+    Python executable: /usr/bin/python3
+    Python version:  3.12.3 (main, Nov  6 2024, 18:32:19) [GCC 13.2.0]
+    OS Platform: linux
+    Working Directory: /home/epatel16/ops445/lab2
+    Start at: Wed Jan 22 18:12:13 2025
+=================================================================
