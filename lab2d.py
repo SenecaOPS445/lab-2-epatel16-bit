@@ -4,7 +4,7 @@ import sys
 
 if len(sys.argv) != 3:
     print(f"Usage: {sys.argv[0]} name age")
-    sys.exit(1)  # Exit with an error code
+    sys.exit(1)  
 
 
 name = sys.argv[1]  
